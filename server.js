@@ -3,7 +3,7 @@ function sayHello () {
 }
 
 function introducingTeams () {
-    console.log('The latino league is gonna play : Always Unai, Legion FC');
+    console.log('The latino league is gonna play : Always Unai, Legion FC, Kaflosan');
 }
 
 function saySomething () {
