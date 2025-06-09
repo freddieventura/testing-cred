@@ -1,6 +1,4 @@
-function sayHello () {
-    console.log('I am saying hello');
-}
+var sayHi = require('./submodule-sayHi/sayHi.js');
 
 function copeHello () {                          // ---> new featureCope
     console.log('Hola hola, tiempo de juego!!'); // ---> new featureCope
@@ -25,7 +23,7 @@ function sayBye () {
 }
 
 function main () {
-    sayHello();
+    sayHi.sayHi();
     copeHello();                                // ---> new featureCope
     introducingTeams();
     saySomething();
