@@ -1,0 +1,3 @@
+[submodule "submodule-sayHi"]
+	path = submodule-sayHi
+	url = file:///home/fakuve/myrepos/freddieventura/submodule-sayHi
