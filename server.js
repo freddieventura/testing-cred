@@ -2,6 +2,11 @@ function sayHello () {
     console.log('I am saying hello');
 }
 
+function copeHello () {                          // ---> new featureCope
+    console.log('Hola hola, tiempo de juego!!'); // ---> new featureCope
+}                                                // ---> new featureCope
+
+
 function introducingTeams () {
     console.log('The latino league is gonna play : Always Unai, Legion FC, Kaflosan');
 }
@@ -21,6 +26,7 @@ function sayBye () {
 
 function main () {
     sayHello();
+    copeHello();                                // ---> new featureCope
     introducingTeams();
     saySomething();
     playingMusic();                                 // Playing music feature  
